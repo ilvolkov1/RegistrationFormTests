@@ -18,7 +18,7 @@ public class RegistrationFormTests extends TestBase {
         String subject1 = "Maths";
         String subject2 = "Arts";
         String hobby = "Music";
-        String pictureName = "picture.png";
+        String pictureName = "pictureKorfa.png";
         String currentAddress = fake.address().fullAddress();
         String birthDateYear = fake.random().nextInt(1900, 2020).toString();
         String birthDateMonth = "October";

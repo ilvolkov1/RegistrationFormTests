@@ -83,7 +83,7 @@ public class RegistrationFormPage {
     }
 
     public RegistrationFormPage setImage(String fileName) {
-        imageUpdateField.uploadFromClasspath("picture.png");
+        imageUpdateField.uploadFromClasspath(fileName);
         return this;
     }
 
